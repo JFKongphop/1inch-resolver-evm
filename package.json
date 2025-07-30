@@ -5,7 +5,9 @@
   "scripts": {
     "test": "forge build && node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
     "lint": "eslint  \"tests/**/*.ts\"",
-    "main": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js tests/main.spec.ts"
+    "main": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js tests/main.spec.ts",
+    "fill": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js tests/fills",
+    "sf": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js tests/fills/singleFill.spec.ts"
   },
   "devDependencies": {
     "@1inch/tsconfig": "1.0.7",
